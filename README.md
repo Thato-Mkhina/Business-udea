@@ -1,1 +1,1 @@
-# Business-udea
+# Business-idea
