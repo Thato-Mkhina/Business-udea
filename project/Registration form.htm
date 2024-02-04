@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+ <html lang="eng">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta name="keyword" content="">
+ 	<meta name="description" content="">
+ 	<meta name="author" conent="">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+ 	<link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+	 integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+	 referrerpolicy="no-referrer" />
+
+ 	<title>Registration Form</title>
+	 <style type="text/css">
+   #heade{
+   	margin-left:75px;
+   }
+        nav a:link{
+	    color:black;text-decoration:none;
+		}
+        nav a:visited{color:a;
+			         text-decoration:none;}
+        nav a:hover{color:a;
+		             text-decoration:none;}
+        nav a:active{color:a;
+			        text-decoration:none;}
+		#nava{
+			 text-align:right;
+			 margin-top:-50px ;
+			 margin-right:45px;
+			 position: -webkit-sticky;
+			 position: sticky;
+			 font-size:20px;
+	}
+
+ .A a{
+margin:5px;
+ }
+.A a:hover{	  
+	   color:red;
+ }
+
+
+.B a{
+	margin:5px;
+	 
+}
+
+.B a:hover{	  
+	 color:red;
+ }
+
+.C a{
+	margin:5px;
+	 
+}
+
+.C a:hover{	  
+	 color:red;
+ }
+ 
+  .D a{
+	margin:5px;
+	 
+}
+
+.D a:hover{	  
+	 color:red;
+ }
+
+   nav nava{
+	position:fixed;
+	border-radius:4px;
+   }
+
+   .center{
+   	text-align:center;
+   	border:dotted 2px;
+   	width:500px;
+   	height:370px;
+   	margin-left:450px;
+   	border-color:silver;
+   }
+
+
+.sign{
+	text-align:center; 
+}
+  
+
+ span input {
+	 border-radius:4px;
+	  width:300px;
+}
+ 
+ 
+
+
+	 </style>
+
+ </head>
+  <body style="background-color:lavender;">
+
+    <header id="heade">
+      <h2> <a href="#">
+		    <i class="fa-solid fa-bars" ></i>
+	       </a> 
+      </h2>
+	   
+
+
+	   
+    </header>
+ 
+<div class="background"></div>
+
+	<h4>
+		
+		<nav id="nava">
+        <span class="A">
+			<a href="">Home</a>
+		</span>
+
+		<span class="B">
+			<a href="">About</a>
+		</span>
+
+        <span class="C">
+		<a href="">Services</a>
+	    </span>
+
+	    <span class="C">
+		<a href="">Contact</a>
+	    </span>
+ 
+	    </nav>
+
+	</h4>
+<br>
+    <main>
+        <section class="main section">
+
+			<div class="sign">
+				<h3>Sign in</h3>
+			</div>
+
+      <form class="center" >
+			 
+				<div class="form">
+
+				<label for="FirstName">First Name:</label><br>
+				<span>
+					<input type="text" id="First name" placeholder="Enter First name">
+				</span>
+			
+<br>
+			<label for="LastName">Last Name:</label><br>
+			<span>
+				<input type="text" id="First name"placeholder="Enter Last name">
+			</span>
+<br>
+			<label for="Email">Email:</label><br>
+			<span>
+				<input type="Email" id="Email" placeholder="Enter Email">
+			</span>
+<br>
+           
+			<label for="phone">Tel:</label><br>
+			<span>
+				<input type="tel" id="phone" name="phone" placeholder="123-45-678"
+				pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+			</span>
+
+<br><br>
+			<label for="Birthday">Birthday:</label>
+					<input type="date" id="Birthday">
+				 
+			 
+
+			</div>
+			<div><br>
+				<label for="Gender">Gender:</label>
+			 <select id="Gender"><br>
+			 <option value="">Male</option>
+			 <option value="">Female</option>
+			 <option value="">Other</option>
+			 </select>
+			</div>
+<br>
+			<div class="Add">
+				<label for="FirstName">Address:</label><br>
+			   <span>
+			   	<input type="address">
+			   </span>
+			</div>
+<br> 
+			  
+				<div class="submition">
+					<input type="submit" value="submit">
+				 </div>
+			 
+<br>
+
+			 <div class="social">
+				<a href="#">
+					<i class="fa-brands fa-facebook"></i>
+				    <i class="fa-brands fa-instagram"></i>
+				    <i class="fa-brands fa-twitter"></i>
+				</a>
+			 </div>
+	  </form>
+
+		</section>
+	</main>
+
+  </body>
